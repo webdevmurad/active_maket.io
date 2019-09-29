@@ -1,0 +1,74 @@
+body {
+	font-family: "Proxima Nova";
+}
+.study {
+	height: 725px;
+	background-color: #f4f9fb;
+}
+
+.section-title_study {
+	padding-top: 76px;
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+}		
+.section-title_study::after {
+	display: none;
+}
+
+.study_text {
+	color: #5b5b5b;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 28px;
+	text-align: center;
+}
+.sub_two {
+	margin-top: 15px;
+}
+
+.cnt {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	margin-top: 42px;
+}
+.st_img {
+	display: flex;
+	align-self: flex-start;
+}
+.subtext_study {
+
+	margin-top: 9px;
+	color: #5b5b5b;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22.14px;
+}
+.st_div {
+	display: flex;
+	justify-content: center;
+}
+.two_row {
+	display: flex;
+	justify-content: center;
+	margin-top: 45px;
+}
+.btn_div {
+	display: flex;
+	justify-content: center;
+	margin-top: 39px;
+}
+.btn_study {
+    font-family: "Proxima Nova Bold"; 
+	width: 299px;
+	height: 57px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25.47px;
+}

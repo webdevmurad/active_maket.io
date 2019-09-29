@@ -1,0 +1,111 @@
+.overlay {
+	position: fixed;
+	display: none;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background: linear-gradient(45deg, #1c8fd4 0%, #7e66e7 100%); 
+}
+
+.border-popup {
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	z-index: 10;
+	position: relative;
+	max-width: 360px;
+	max-height: 309px;
+	margin: 0 auto;
+	padding: 35px 28px;
+	color: #fff; }
+
+.border-popup:before, .border-popup:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 100%;
+	width: 15%;
+	height: 0px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+.border-popup:before {
+	left: -1px; }
+
+.border-popup:after {
+	right: -1px; }
+
+.popup {
+	width: 100%;
+	height: 80%;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	position: fixed; }
+.popup-close {
+		position: absolute;
+		right: 7px;
+		top: -7px;
+		font-size: 35px;
+		color: #fff;
+		font-family: "Roboto Light";
+		cursor: pointer;
+		opacity: 0.5; }
+.popup-title {
+		display: block;
+		width: 100%;
+		margin: 0;
+		text-transform: uppercase;
+		text-align: center;
+		color: #ffffff;
+		font-family: "Proxima Nova Bold";
+		font-size: 22px;
+		line-height: 24px;
+		text-transform: uppercase;
+		padding-bottom: 10px; }
+.popup-form {
+		color: #ffffff; }
+.popup-form-header {
+			padding: 0;
+			text-align: center;
+			color: #ffffff;
+			font-family: "Proxima Nova Regular";
+			font-size: 16px;
+			line-height: 21px; }
+.popup-form__input-name {
+			margin-top: 28px;
+			width: 100%;
+			height: 49px;
+			border: none;
+			color: #606060;
+			font-family: "Proxima Nova Light";
+			font-size: 14px;
+			line-height: 24px;
+			background: #ffffff url(../img/header/name_logo.png) no-repeat left center;
+			background-position-x: 20px;
+			padding-left: 50px;
+			border-radius: 25px; }
+.popup-form__input-phone {
+			margin-top: 15px;
+			width: 100%;
+			height: 49px;
+			border: none;
+			color: #606060;
+			font-family: "Proxima Nova Light";
+			font-size: 14px;
+			line-height: 24px;
+			background: #ffffff url(../img/header/phone_logo.png) no-repeat left center;
+			background-position-x: 20px;
+			padding-left: 50px;
+			border-radius: 25px; }
+.popup-form__button-big {
+			margin-top: 26px;
+			padding: 15px 30px;
+			border-radius: 35px;
+			color: #202020;
+			font-family: "Proxima Nova Bold";
+			font-size: 15px;
+			line-height: 25.47px;
+			background-color: #ffdc38;
+			z-index: 2; }

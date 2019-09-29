@@ -1,0 +1,9 @@
+.idea/
+node_modules/
+package-lock.json
+
+
+
+public/css/common.min.css
+public/js/scripts.min.js
+

@@ -1,0 +1,57 @@
+.feedback {
+	margin-top: 55px;
+	margin-bottom: 82px;
+}
+.feedback_slider {
+	text-align: center;
+	width: 65%;
+	margin: 0 auto;
+}
+.feedback_slider_next_img {
+	display: flex;
+	justify-content: center;
+}
+.slider-arrow {
+	position: absolute;
+    top: 16%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 3;
+    width: 20px;
+    height: 47px;
+}
+.feedback_slider_next_client {
+	color: #202020;
+	font-family: "Proxima Nova Bold";
+	font-size: 19px;
+	font-weight: 800;
+}
+.feedback_slider_next_from {
+	margin-top: 10px;`
+	font-family: "Proxima Nova Lt";
+	font-weight: 300;
+}
+.feedback_slider_next_text {
+	color: #5b5b5b;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22.14px;
+}
+
+
+.slider-arrow__left {
+	left: 35%;
+	background: url(../img/feedback/lefr_arrow.png) center no-repeat;
+}
+.slider-arrow__right {
+	right: 35%;
+	background: url(../img/feedback/right_arrow.png) center no-repeat;
+}
+.feedback_btn {
+	text-align: center;
+}
+.feed_btn {
+	font-family: "Proxima Nova Bold";
+	padding: 15px 50px;
+	font-size: 15px;
+}

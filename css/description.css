@@ -1,0 +1,68 @@
+.section-title {
+	margin-top: 76px;
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.section-title::after {
+	margin-top: 23px;
+	content: '';
+	display: block;
+	height: 1px;
+	background: url(../img/description/strip.png) center no-repeat;
+}
+.text {
+	margin-top: 44px;
+	color: #5b5b5b;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 28px;
+}
+.text_two {
+	margin-top: 15px;
+}
+.description_img {
+	display: flex;
+	margin-top: 17px;
+}
+
+.dscr_photo {
+	position: absolute;
+	margin-top: 26px;
+	margin-left: 17px;
+}
+.right_photo {
+	margin-left: 47px;
+}
+.dscr_strip {
+	margin-top: 86px;
+}
+.right_strip {
+	margin-left: 29px;
+}
+.descr_text {
+	width: 542px;
+	height: 196px;
+}
+.subtext {
+	margin-bottom: 77px;
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+}
+.right_sub {
+	margin-left: 50px;
+}
+
+.bold {
+	color: black;
+	font-weight: bold;
+}
+
+.youtube_video {
+	margin-top: 43px;
+	margin-left: 30px;
+}

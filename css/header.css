@@ -1,0 +1,220 @@
+.header {
+	margin: 0;
+	padding-top: 16px;
+	padding-bottom: 63px;
+	background: url(../img/header/bgrP.png) no-repeat;
+	background-size: cover;
+}
+
+.header_logo {
+	display: flex;
+}
+
+.logo {
+	padding-top: 40px;
+}
+
+.logo_text {
+	font-family: 'Proxima Nova Regular';
+	padding-top: 40px;
+	margin-left: 35px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+}
+.contacts {
+	padding-top: 42px;
+	padding-right: 5px;
+}
+.header_text {
+	padding-top: 146px;
+}
+.header-phone_number {
+	color: #ffffff;
+    font-family: "Roboto Bold";
+    font-size: 19px;
+    line-height: 24px;
+    text-align: right;
+}
+.header_span {
+	color: #fff;
+	font-family: 'Proxima Nova Light';
+	font-size: 14px;
+	line-height: 22px;
+	text-align: right;	
+}
+.phone_button_header {
+	padding-top: 40px;
+	color: #202020;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 22.04px;
+}
+.header_b {
+	margin-top: 42px;
+	float: right;
+	font-family: "Proxima Nova Bold";
+	color: #202020;
+	font-size: 14px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	padding: 15px 25px;
+}
+.big_text {
+	font-family: "Proxima Nova Bold";
+	font-size: 48px;
+}
+.medium_text {
+	font-family: "Proxima Nova Semibold";
+	color: #fff;
+	margin-top: 16px;
+	font-size: 24px;
+	line-height: 24px;
+}
+.small_text {
+	font-family: "Proxima Nova Light";
+	color: #fff;
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+
+.link_head {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.big_text {
+	font-family: "Proxima Nova Bold";
+	color: #fff;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.medium_text {
+	color: #fff;
+	margin-top: 16px;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.small_text {
+	color: #fff;
+	margin-top: 20px;
+	margin-right: 89px;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 24px;
+}
+.header_btn {
+    font-family: "Proxima Nova Bold";
+	margin-top: 33px;
+	padding: 18px 37px 22px 37px;
+	color: #202020;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 25px;
+}
+.input_block_form {
+	padding-left: 20px;
+	padding-top: 25px;
+	text-align: center;
+}
+.input_header_text {
+	padding-top: 5px;
+	color: #fff;
+	font-family: "Proxima Nova Bold";
+	font-size: 22px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.input_medium_text {
+	font-family: "Proxima Nova Regular";
+	padding-top: 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+}
+.input_block {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  z-index: 1;
+  position: relative;
+  max-width: 360px;
+  max-height: 309px;
+  margin: 0 auto;
+  padding: 32px;
+  color: #fff;
+  top: 60px
+}
+.input_block:before, .input_block:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 15%;
+  height: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+}
+
+.input_block:before {
+  left: -1px; 
+}
+
+.input_block:after {
+  right: -1px; 
+}
+.input_name {
+	margin-top: 25px;
+	width: 100%;
+	height: 49px;
+	border: none;
+	color: #606060;
+	font-family: "Proxima Nova Light";
+	font-size: 14px;
+	background: #ffffff url(../img/header/name_logo.png) no-repeat left center;
+	background-position-x: 20px;
+	padding-left: 50px;
+	border-radius: 25px;
+}
+.input_tel {
+	margin-top: 15px;
+	width: 100%;
+	height: 49px;
+	border: none;
+	color: #606060;
+	font-family: "Proxima Nova Light";
+	font-size: 14px;
+	background: #ffffff url(../img/header/phone_logo.png) no-repeat left center;
+	background-position-x: 20px;
+	padding-left: 50px;
+	border-radius: 25px;
+}
+.input_btn {
+	margin-top: 28px;
+    padding: 15px 30px;
+    border-radius: 35px;
+    color: #202020;
+    font-family: "Proxima Nova Bold";
+    font-size: 15px;
+    line-height: 25.47px;
+    background-color: #ffdc38;
+    z-index: 2;
+}
+
+
+
+
+.header_arrow {
+	padding-top: 138px;
+	text-align: center;
+}

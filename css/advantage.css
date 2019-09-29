@@ -1,0 +1,51 @@
+.advan_block {
+	display: flex;
+	margin-top: 38px;
+}
+.advantanges {
+	border: 1px solid #eeedee;
+}
+.advan_img {
+	display: flex;
+	justify-content: center;
+	margin-top: 24px;
+}
+.advan_text {
+	text-align: center;
+	margin-top: 14px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 26px;
+	font-size: 17px;
+}
+.sertificat {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 33px;
+}
+
+.img_sertif {
+	text-align: center;
+	width: 150px;
+	height: 200px;
+	border: 1px solid #eeedee;
+}
+
+.ser_img {
+	width: 124px;
+	height: 174px;
+	margin: 13px 13px 13px 13px;
+}
+.ser_img:hover {
+	transform: scale(3); 
+}
+.subtext_adv {
+	margin: 30px 190px 76px 190px;
+	color: #5b5b5b;
+	font-family: "Proxima Nova Bold";
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 28px;
+	text-align: center;
+}

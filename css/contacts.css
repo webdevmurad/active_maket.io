@@ -1,0 +1,60 @@
+.contact_form {
+	display: flex;
+}
+.map {
+	width: 728px;
+	height: 406px;
+	margin-top: 31px;
+	margin-bottom: 80px;
+}
+.contact_main {
+	margin-top: 91px;
+	margin-left: 51px;
+}
+.contact_main_adress {
+	display: flex;
+}
+.place {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+}
+.logo_cont {
+	margin-top: 10px;
+	margin-right: 12px;
+	width: 29px;
+	height: 29px;
+}
+.contact_main_text {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+}
+.contact_main_text:hover {
+	text-decoration: none;
+} 
+.contact_quest {
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+}
+.subtext_contact {
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+}
+.btn_contact {
+    font-family: "Proxima Nova Bold";
+	width: 170px;
+	height: 45px;
+	margin-top: 16px;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 22.04px;
+}
+.link {
+	text-decoration: none;
+	color: black;
+}
